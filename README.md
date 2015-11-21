@@ -1,5 +1,5 @@
 # indigo
-an objective-c lua binding
+an Objective-C lua binding
 ## features
 ### 1) Swift code style
 You no longer need to write colon when calling functions, just write dot `.`
@@ -79,7 +79,7 @@ Almost the same as you write Objective-C code:
     print("dispatch_async on global queue ", objcClass("NSThread").currentThread)
  end)
  ```
-### 6) Support Objective-c block with an elegant syntax
+### 6) Support Objective-C block with an elegant syntax
 You pass a lua function as block argument:
 ``` lua
 local arr = objcClass("NSArray").arrayWithObjects_(3,5,7,4,2,1,8,9,6,0)
