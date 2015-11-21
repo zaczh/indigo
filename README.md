@@ -72,14 +72,14 @@ finish()
 ```
 Note that class methods and instance methods are different.
 
-### 5) support multi-threading with GCD
+### 5) Support multi-threading with GCD
 Almost the same as you write Objective-C code:
 ``` lua
  dispatch_async(dispatch_get_global_queue(0, 0), function()
     print("dispatch_async on global queue ", objcClass("NSThread").currentThread)
  end)
  ```
-### 6) support Objective-c block with an elegant syntax
+### 6) Support Objective-c block with an elegant syntax
 You pass a lua function as block argument:
 ``` lua
 local arr = objcClass("NSArray").arrayWithObjects_(3,5,7,4,2,1,8,9,6,0)
@@ -96,13 +96,13 @@ One great thing of block is that indigo automatically manages the memory for
 the block and its captured external parameters, just like in Objective-C!
 You only need to be aware of the retain circles.
 
-### 7) support inout parameters(partially)
+### 7) Support inout parameters(partially)
 ```lua
 function AViewController:scrollViewWillEndDragging_withVelocity_targetContentOffset_(scrollView, velocity, targetContentOffset)
   print("velocity.y: ", velocity.y)
   targetContentOffset.y = 60
 end
 ```
-### 8) support Cocoa C functions(partially)
+### 8) Support Cocoa C functions(partially)
 You can run the demo app and click the right button. I create the heart image with
 Quartz C API.
