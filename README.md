@@ -1,4 +1,4 @@
-# indigo
+# Indigo
 an Objective-C lua binding, inspired by `wax`(https://github.com/probablycorey/wax)
 ## features
 ### 1) Swift code style
@@ -10,10 +10,14 @@ self.class.classFoo_(89)
 --call methods
 local cell = tableView.dequeueReusableCellWithIdentifier_("cell")
 ```
-### 2) All written in pure C
+### 2) lua source code updated
+The lua code supporting indigo has been updated to latest version(5.3.1). That
+means many new features of lua can be used in Indigo.
+
+### 3) All written in pure C
 I am a great fun of C, and I don't want to mess scripts with c codes. :-)
 
-### 3) Better memory management
+### 4) Better memory management
 Indigo does not retain Objective-C objects. When Objective-C runtime no longer
 need them, they are dealloced immediately. And what is better is that you now
 can overwrite the `dealloc` method, just like an normal method:
@@ -23,7 +27,7 @@ function AView:dealloc()
     self.super.dealloc()
 end
 ```
-### 4) More reasonable class creation
+### 5) More reasonable class creation
 You can now write a new class or a class extension. To create a new class,
 use the `class` keyword:
 ```lua
@@ -72,14 +76,14 @@ finish()
 ```
 Note that class methods and instance methods are different.
 
-### 5) Support multi-threading with GCD
+### 6) Support multi-threading with GCD
 Almost the same as you write Objective-C code:
 ``` lua
  dispatch_async(dispatch_get_global_queue(0, 0), function()
     print("dispatch_async on global queue ", objcClass("NSThread").currentThread)
  end)
  ```
-### 6) Support Objective-C block with an elegant syntax
+### 7) Support Objective-C block with an elegant syntax
 You pass a lua function as block argument:
 ``` lua
 local arr = objcClass("NSArray").arrayWithObjects_(3,5,7,4,2,1,8,9,6,0)
@@ -92,17 +96,17 @@ local sortedArr = arr.sortedArrayUsingComparator_(
 ```
 Because a block has no signature, so we need to translate the parameters
 explicitly(calling `asObject`).
-One great thing of block is that indigo automatically manages the memory for
+One great thing of block is that Indigo automatically manages the memory for
 the block and its captured external parameters, just like in Objective-C!
 You only need to be aware of the retain circles.
 
-### 7) Support inout parameters(partially)
+### 8) Support inout parameters(partially)
 ```lua
 function AViewController:scrollViewWillEndDragging_withVelocity_targetContentOffset_(scrollView, velocity, targetContentOffset)
   print("velocity.y: ", velocity.y)
   targetContentOffset.y = 60
 end
 ```
-### 8) Support Cocoa C functions(partially)
+### 9) Support Cocoa C functions(partially)
 You can run the demo app and click the right button. I create the heart image with
 Quartz C API.
