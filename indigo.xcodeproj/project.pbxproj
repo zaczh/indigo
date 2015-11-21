@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3911141BB7F462007EF97E /* AView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F3911131BB7F462007EF97E /* AView.lua */; };
+		1F3911161BB82224007EF97E /* test_script.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F3911151BB82224007EF97E /* test_script.lua */; };
+		1F3B73001B9B42C400A74AE4 /* IndigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B72FF1B9B42C400A74AE4 /* IndigoTests.m */; };
+		1F3EE3941BF8D5BA00722EC7 /* CViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F3EE3931BF8D5BA00722EC7 /* CViewController.lua */; };
+		1F4A18C71BC411F800EF522B /* IndigoTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A18C61BC411F800EF522B /* IndigoTestObject.m */; };
+		1F556A241B99FD9400B23F52 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569E81B99FD9400B23F52 /* lapi.c */; };
+		1F556A251B99FD9400B23F52 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569EA1B99FD9400B23F52 /* lauxlib.c */; };
+		1F556A261B99FD9400B23F52 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569EC1B99FD9400B23F52 /* lbaselib.c */; };
+		1F556A271B99FD9400B23F52 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569ED1B99FD9400B23F52 /* lbitlib.c */; };
+		1F556A281B99FD9400B23F52 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569EE1B99FD9400B23F52 /* lcode.c */; };
+		1F556A291B99FD9400B23F52 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F01B99FD9400B23F52 /* lcorolib.c */; };
+		1F556A2A1B99FD9400B23F52 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F11B99FD9400B23F52 /* lctype.c */; };
+		1F556A2B1B99FD9400B23F52 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F31B99FD9400B23F52 /* ldblib.c */; };
+		1F556A2C1B99FD9400B23F52 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F41B99FD9400B23F52 /* ldebug.c */; };
+		1F556A2D1B99FD9400B23F52 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F61B99FD9400B23F52 /* ldo.c */; };
+		1F556A2E1B99FD9400B23F52 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F81B99FD9400B23F52 /* ldump.c */; };
+		1F556A2F1B99FD9400B23F52 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569F91B99FD9400B23F52 /* lfunc.c */; };
+		1F556A301B99FD9400B23F52 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569FB1B99FD9400B23F52 /* lgc.c */; };
+		1F556A311B99FD9400B23F52 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569FD1B99FD9400B23F52 /* linit.c */; };
+		1F556A321B99FD9400B23F52 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569FE1B99FD9400B23F52 /* liolib.c */; };
+		1F556A331B99FD9400B23F52 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5569FF1B99FD9400B23F52 /* llex.c */; };
+		1F556A341B99FD9400B23F52 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A021B99FD9400B23F52 /* lmathlib.c */; };
+		1F556A351B99FD9400B23F52 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A031B99FD9400B23F52 /* lmem.c */; };
+		1F556A361B99FD9400B23F52 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A051B99FD9400B23F52 /* loadlib.c */; };
+		1F556A371B99FD9400B23F52 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A061B99FD9400B23F52 /* lobject.c */; };
+		1F556A381B99FD9400B23F52 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A081B99FD9400B23F52 /* lopcodes.c */; };
+		1F556A391B99FD9400B23F52 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A0A1B99FD9400B23F52 /* loslib.c */; };
+		1F556A3A1B99FD9400B23F52 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A0B1B99FD9400B23F52 /* lparser.c */; };
+		1F556A3B1B99FD9400B23F52 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A0D1B99FD9400B23F52 /* lstate.c */; };
+		1F556A3C1B99FD9400B23F52 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A0F1B99FD9400B23F52 /* lstring.c */; };
+		1F556A3D1B99FD9400B23F52 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A111B99FD9400B23F52 /* lstrlib.c */; };
+		1F556A3E1B99FD9400B23F52 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A121B99FD9400B23F52 /* ltable.c */; };
+		1F556A3F1B99FD9400B23F52 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A141B99FD9400B23F52 /* ltablib.c */; };
+		1F556A401B99FD9400B23F52 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A151B99FD9400B23F52 /* ltm.c */; };
+		1F556A431B99FD9400B23F52 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A1D1B99FD9400B23F52 /* lundump.c */; };
+		1F556A441B99FD9400B23F52 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A1F1B99FD9400B23F52 /* lvm.c */; };
+		1F556A451B99FD9400B23F52 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A211B99FD9400B23F52 /* lzio.c */; };
+		1F556A4A1B99FD9A00B23F52 /* AppDelegate.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F556A481B99FD9A00B23F52 /* AppDelegate.lua */; };
+		1F556A4B1B99FD9A00B23F52 /* AViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1F556A491B99FD9A00B23F52 /* AViewController.lua */; };
+		1F556A5B1B99FDA100B23F52 /* indigo_class.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A4E1B99FDA100B23F52 /* indigo_class.m */; };
+		1F556A5C1B99FDA100B23F52 /* indigo_engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A501B99FDA100B23F52 /* indigo_engine.m */; };
+		1F556A5D1B99FDA100B23F52 /* indigo_debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A521B99FDA100B23F52 /* indigo_debug.m */; };
+		1F556A5E1B99FDA100B23F52 /* indigo_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A541B99FDA100B23F52 /* indigo_helper.m */; };
+		1F556A601B99FDA100B23F52 /* Indigo_object.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F556A581B99FDA100B23F52 /* Indigo_object.m */; };
+		1F6CB4521B5B8E620089B619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CB4511B5B8E620089B619 /* main.m */; };
+		1F6CB45D1B5B8E620089B619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CB45C1B5B8E620089B619 /* Assets.xcassets */; };
+		1F6CB4601B5B8E620089B619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CB45E1B5B8E620089B619 /* LaunchScreen.storyboard */; };
+		1F6CB46A1B5B8FA00089B619 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CB4691B5B8FA00089B619 /* Main.xib */; };
+		1F6D6A8B1BE51EA400679901 /* indigo_gc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D6A8A1BE51EA400679901 /* indigo_gc.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1F6D6A901BE5B85900679901 /* indigo_block.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D6A8F1BE5B85900679901 /* indigo_block.m */; };
+		1F6D6A931BEF58EB00679901 /* indigo_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D6A921BEF58EB00679901 /* indigo_struct.m */; };
+		1F6D6A961BEFA2A900679901 /* indigo_cbridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D6A951BEFA2A900679901 /* indigo_cbridge.m */; };
+		1FB4850A1BF6146F00DBAF6D /* china_provinces.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FB485091BF6146F00DBAF6D /* china_provinces.json */; };
+		1FB4850C1BF6194900DBAF6D /* BViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FB4850B1BF6194900DBAF6D /* BViewController.lua */; };
+		1FB4850F1BF8C1A700DBAF6D /* ProtocolLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4850E1BF8C1A700DBAF6D /* ProtocolLoader.m */; };
+		1FCB52A71C00025F00C7A88C /* lutf8lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB52A61C00025F00C7A88C /* lutf8lib.c */; };
+		1FCB52BF1C00299A00C7A88C /* HeartViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB52BE1C00299A00C7A88C /* HeartViewController.lua */; };
+		1FCB52C11C00392600C7A88C /* what_indigo_modified_on_lua_source.diff in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB52C01C00392600C7A88C /* what_indigo_modified_on_lua_source.diff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4A18C21BC3A0DE00EF522B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6CB4451B5B8E620089B619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6CB44C1B5B8E620089B619;
+			remoteInfo = indigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3910C51BADB5A5007EF97E /* indigo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indigo.h; sourceTree = "<group>"; };
+		1F3911131BB7F462007EF97E /* AView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AView.lua; sourceTree = "<group>"; };
+		1F3911151BB82224007EF97E /* test_script.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_script.lua; sourceTree = "<group>"; };
+		1F3B72FD1B9B42C400A74AE4 /* IndigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3B72FF1B9B42C400A74AE4 /* IndigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IndigoTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F3B73011B9B42C400A74AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3EE3931BF8D5BA00722EC7 /* CViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CViewController.lua; sourceTree = "<group>"; };
+		1F4A18C51BC411F800EF522B /* IndigoTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndigoTestObject.h; sourceTree = "<group>"; };
+		1F4A18C61BC411F800EF522B /* IndigoTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndigoTestObject.m; sourceTree = "<group>"; };
+		1F5569E81B99FD9400B23F52 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		1F5569E91B99FD9400B23F52 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		1F5569EA1B99FD9400B23F52 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		1F5569EB1B99FD9400B23F52 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		1F5569EC1B99FD9400B23F52 /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		1F5569ED1B99FD9400B23F52 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
+		1F5569EE1B99FD9400B23F52 /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		1F5569EF1B99FD9400B23F52 /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		1F5569F01B99FD9400B23F52 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		1F5569F11B99FD9400B23F52 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
+		1F5569F21B99FD9400B23F52 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
+		1F5569F31B99FD9400B23F52 /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		1F5569F41B99FD9400B23F52 /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		1F5569F51B99FD9400B23F52 /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		1F5569F61B99FD9400B23F52 /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		1F5569F71B99FD9400B23F52 /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		1F5569F81B99FD9400B23F52 /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		1F5569F91B99FD9400B23F52 /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		1F5569FA1B99FD9400B23F52 /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		1F5569FB1B99FD9400B23F52 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		1F5569FC1B99FD9400B23F52 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		1F5569FD1B99FD9400B23F52 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		1F5569FE1B99FD9400B23F52 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		1F5569FF1B99FD9400B23F52 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		1F556A001B99FD9400B23F52 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		1F556A011B99FD9400B23F52 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		1F556A021B99FD9400B23F52 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		1F556A031B99FD9400B23F52 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		1F556A041B99FD9400B23F52 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		1F556A051B99FD9400B23F52 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		1F556A061B99FD9400B23F52 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		1F556A071B99FD9400B23F52 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		1F556A081B99FD9400B23F52 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		1F556A091B99FD9400B23F52 /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		1F556A0A1B99FD9400B23F52 /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		1F556A0B1B99FD9400B23F52 /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		1F556A0C1B99FD9400B23F52 /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		1F556A0D1B99FD9400B23F52 /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		1F556A0E1B99FD9400B23F52 /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		1F556A0F1B99FD9400B23F52 /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		1F556A101B99FD9400B23F52 /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		1F556A111B99FD9400B23F52 /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		1F556A121B99FD9400B23F52 /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		1F556A131B99FD9400B23F52 /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		1F556A141B99FD9400B23F52 /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		1F556A151B99FD9400B23F52 /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		1F556A161B99FD9400B23F52 /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		1F556A181B99FD9400B23F52 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		1F556A191B99FD9400B23F52 /* lua.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
+		1F556A1B1B99FD9400B23F52 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		1F556A1C1B99FD9400B23F52 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		1F556A1D1B99FD9400B23F52 /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		1F556A1E1B99FD9400B23F52 /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		1F556A1F1B99FD9400B23F52 /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		1F556A201B99FD9400B23F52 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		1F556A211B99FD9400B23F52 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		1F556A221B99FD9400B23F52 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		1F556A481B99FD9A00B23F52 /* AppDelegate.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppDelegate.lua; sourceTree = "<group>"; };
+		1F556A491B99FD9A00B23F52 /* AViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AViewController.lua; sourceTree = "<group>"; };
+		1F556A4D1B99FDA100B23F52 /* indigo_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = indigo_class.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F556A4E1B99FDA100B23F52 /* indigo_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_class.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F556A4F1B99FDA100B23F52 /* indigo_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_engine.h; sourceTree = "<group>"; };
+		1F556A501B99FDA100B23F52 /* indigo_engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_engine.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F556A511B99FDA100B23F52 /* indigo_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_debug.h; sourceTree = "<group>"; };
+		1F556A521B99FDA100B23F52 /* indigo_debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_debug.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F556A531B99FDA100B23F52 /* indigo_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_helper.h; sourceTree = "<group>"; };
+		1F556A541B99FDA100B23F52 /* indigo_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indigo_helper.m; sourceTree = "<group>"; };
+		1F556A571B99FDA100B23F52 /* indigo_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = indigo_object.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F556A581B99FDA100B23F52 /* Indigo_object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Indigo_object.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6CB44D1B5B8E620089B619 /* Indigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6CB4511B5B8E620089B619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6CB45C1B5B8E620089B619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F6CB45F1B5B8E620089B619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F6CB4611B5B8E620089B619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6CB4691B5B8FA00089B619 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		1F6D6A891BE51EA400679901 /* indigo_gc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_gc.h; sourceTree = "<group>"; };
+		1F6D6A8A1BE51EA400679901 /* indigo_gc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indigo_gc.m; sourceTree = "<group>"; };
+		1F6D6A8E1BE5B85900679901 /* indigo_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_block.h; sourceTree = "<group>"; };
+		1F6D6A8F1BE5B85900679901 /* indigo_block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_block.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6D6A911BEF58EB00679901 /* indigo_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = indigo_struct.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1F6D6A921BEF58EB00679901 /* indigo_struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_struct.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1F6D6A941BEFA2A900679901 /* indigo_cbridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigo_cbridge.h; sourceTree = "<group>"; };
+		1F6D6A951BEFA2A900679901 /* indigo_cbridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = indigo_cbridge.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1FB485091BF6146F00DBAF6D /* china_provinces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = china_provinces.json; sourceTree = "<group>"; };
+		1FB4850B1BF6194900DBAF6D /* BViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BViewController.lua; sourceTree = "<group>"; };
+		1FB4850D1BF8C1A700DBAF6D /* ProtocolLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolLoader.h; sourceTree = "<group>"; };
+		1FB4850E1BF8C1A700DBAF6D /* ProtocolLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolLoader.m; sourceTree = "<group>"; };
+		1FCB52A61C00025F00C7A88C /* lutf8lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lutf8lib.c; sourceTree = "<group>"; };
+		1FCB52BE1C00299A00C7A88C /* HeartViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HeartViewController.lua; sourceTree = "<group>"; };
+		1FCB52C01C00392600C7A88C /* what_indigo_modified_on_lua_source.diff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = what_indigo_modified_on_lua_source.diff; sourceTree = "<group>"; };
+		1FEAB3AB1B5FE6BA008E1277 /* indigo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "indigo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3B72FA1B9B42C400A74AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6CB44A1B5B8E620089B619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3B72FE1B9B42C400A74AE4 /* IndigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B72FF1B9B42C400A74AE4 /* IndigoTests.m */,
+				1F3B73011B9B42C400A74AE4 /* Info.plist */,
+			);
+			path = IndigoTests;
+			sourceTree = "<group>";
+		};
+		1F5569E71B99FD9400B23F52 /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				1F5569E81B99FD9400B23F52 /* lapi.c */,
+				1F5569E91B99FD9400B23F52 /* lapi.h */,
+				1F5569EA1B99FD9400B23F52 /* lauxlib.c */,
+				1F5569EB1B99FD9400B23F52 /* lauxlib.h */,
+				1F5569EC1B99FD9400B23F52 /* lbaselib.c */,
+				1F5569ED1B99FD9400B23F52 /* lbitlib.c */,
+				1F5569EE1B99FD9400B23F52 /* lcode.c */,
+				1F5569EF1B99FD9400B23F52 /* lcode.h */,
+				1F5569F01B99FD9400B23F52 /* lcorolib.c */,
+				1F5569F11B99FD9400B23F52 /* lctype.c */,
+				1F5569F21B99FD9400B23F52 /* lctype.h */,
+				1F5569F31B99FD9400B23F52 /* ldblib.c */,
+				1F5569F41B99FD9400B23F52 /* ldebug.c */,
+				1F5569F51B99FD9400B23F52 /* ldebug.h */,
+				1F5569F61B99FD9400B23F52 /* ldo.c */,
+				1F5569F71B99FD9400B23F52 /* ldo.h */,
+				1F5569F81B99FD9400B23F52 /* ldump.c */,
+				1F5569F91B99FD9400B23F52 /* lfunc.c */,
+				1F5569FA1B99FD9400B23F52 /* lfunc.h */,
+				1F5569FB1B99FD9400B23F52 /* lgc.c */,
+				1F5569FC1B99FD9400B23F52 /* lgc.h */,
+				1F5569FD1B99FD9400B23F52 /* linit.c */,
+				1F5569FE1B99FD9400B23F52 /* liolib.c */,
+				1F5569FF1B99FD9400B23F52 /* llex.c */,
+				1F556A001B99FD9400B23F52 /* llex.h */,
+				1F556A011B99FD9400B23F52 /* llimits.h */,
+				1F556A021B99FD9400B23F52 /* lmathlib.c */,
+				1F556A031B99FD9400B23F52 /* lmem.c */,
+				1F556A041B99FD9400B23F52 /* lmem.h */,
+				1F556A051B99FD9400B23F52 /* loadlib.c */,
+				1F556A061B99FD9400B23F52 /* lobject.c */,
+				1F556A071B99FD9400B23F52 /* lobject.h */,
+				1F556A081B99FD9400B23F52 /* lopcodes.c */,
+				1F556A091B99FD9400B23F52 /* lopcodes.h */,
+				1F556A0A1B99FD9400B23F52 /* loslib.c */,
+				1F556A0B1B99FD9400B23F52 /* lparser.c */,
+				1F556A0C1B99FD9400B23F52 /* lparser.h */,
+				1F556A0D1B99FD9400B23F52 /* lstate.c */,
+				1F556A0E1B99FD9400B23F52 /* lstate.h */,
+				1F556A0F1B99FD9400B23F52 /* lstring.c */,
+				1F556A101B99FD9400B23F52 /* lstring.h */,
+				1F556A111B99FD9400B23F52 /* lstrlib.c */,
+				1F556A121B99FD9400B23F52 /* ltable.c */,
+				1F556A131B99FD9400B23F52 /* ltable.h */,
+				1F556A141B99FD9400B23F52 /* ltablib.c */,
+				1F556A151B99FD9400B23F52 /* ltm.c */,
+				1F556A161B99FD9400B23F52 /* ltm.h */,
+				1F556A181B99FD9400B23F52 /* lua.h */,
+				1F556A191B99FD9400B23F52 /* lua.hpp */,
+				1F556A1B1B99FD9400B23F52 /* luaconf.h */,
+				1F556A1C1B99FD9400B23F52 /* lualib.h */,
+				1F556A1D1B99FD9400B23F52 /* lundump.c */,
+				1F556A1E1B99FD9400B23F52 /* lundump.h */,
+				1FCB52A61C00025F00C7A88C /* lutf8lib.c */,
+				1F556A1F1B99FD9400B23F52 /* lvm.c */,
+				1F556A201B99FD9400B23F52 /* lvm.h */,
+				1F556A211B99FD9400B23F52 /* lzio.c */,
+				1F556A221B99FD9400B23F52 /* lzio.h */,
+			);
+			path = lua;
+			sourceTree = "<group>";
+		};
+		1F556A471B99FD9A00B23F52 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB52BE1C00299A00C7A88C /* HeartViewController.lua */,
+				1F3EE3931BF8D5BA00722EC7 /* CViewController.lua */,
+				1FB4850B1BF6194900DBAF6D /* BViewController.lua */,
+				1F3911151BB82224007EF97E /* test_script.lua */,
+				1F3911131BB7F462007EF97E /* AView.lua */,
+				1F556A481B99FD9A00B23F52 /* AppDelegate.lua */,
+				1F556A491B99FD9A00B23F52 /* AViewController.lua */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		1F556A4C1B99FDA100B23F52 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FB4850D1BF8C1A700DBAF6D /* ProtocolLoader.h */,
+				1FB4850E1BF8C1A700DBAF6D /* ProtocolLoader.m */,
+				1F3910C51BADB5A5007EF97E /* indigo.h */,
+				1F6D6A8E1BE5B85900679901 /* indigo_block.h */,
+				1F6D6A8F1BE5B85900679901 /* indigo_block.m */,
+				1F556A4D1B99FDA100B23F52 /* indigo_class.h */,
+				1F556A4E1B99FDA100B23F52 /* indigo_class.m */,
+				1F556A4F1B99FDA100B23F52 /* indigo_engine.h */,
+				1F556A501B99FDA100B23F52 /* indigo_engine.m */,
+				1F556A511B99FDA100B23F52 /* indigo_debug.h */,
+				1F556A521B99FDA100B23F52 /* indigo_debug.m */,
+				1F556A531B99FDA100B23F52 /* indigo_helper.h */,
+				1F556A541B99FDA100B23F52 /* indigo_helper.m */,
+				1F556A571B99FDA100B23F52 /* indigo_object.h */,
+				1F556A581B99FDA100B23F52 /* Indigo_object.m */,
+				1F6D6A891BE51EA400679901 /* indigo_gc.h */,
+				1F6D6A8A1BE51EA400679901 /* indigo_gc.m */,
+				1F6D6A911BEF58EB00679901 /* indigo_struct.h */,
+				1F6D6A921BEF58EB00679901 /* indigo_struct.m */,
+				1F6D6A941BEFA2A900679901 /* indigo_cbridge.h */,
+				1F6D6A951BEFA2A900679901 /* indigo_cbridge.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1F556A621B99FDAB00B23F52 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				1F4A18C51BC411F800EF522B /* IndigoTestObject.h */,
+				1F4A18C61BC411F800EF522B /* IndigoTestObject.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		1F6CB4441B5B8E620089B619 = {
+			isa = PBXGroup;
+			children = (
+				1F556A621B99FDAB00B23F52 /* test */,
+				1F556A4C1B99FDA100B23F52 /* src */,
+				1F556A471B99FD9A00B23F52 /* scripts */,
+				1F5569E71B99FD9400B23F52 /* lua */,
+				1F6CB44F1B5B8E620089B619 /* indigo */,
+				1F3B72FE1B9B42C400A74AE4 /* IndigoTests */,
+				1F6CB44E1B5B8E620089B619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6CB44E1B5B8E620089B619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6CB44D1B5B8E620089B619 /* Indigo.app */,
+				1F3B72FD1B9B42C400A74AE4 /* IndigoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6CB44F1B5B8E620089B619 /* indigo */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB52C01C00392600C7A88C /* what_indigo_modified_on_lua_source.diff */,
+				1F6CB4691B5B8FA00089B619 /* Main.xib */,
+				1F6CB45C1B5B8E620089B619 /* Assets.xcassets */,
+				1F6CB45E1B5B8E620089B619 /* LaunchScreen.storyboard */,
+				1F6CB4611B5B8E620089B619 /* Info.plist */,
+				1F6CB4501B5B8E620089B619 /* Supporting Files */,
+				1FEAB3AB1B5FE6BA008E1277 /* indigo-Bridging-Header.h */,
+				1FB485091BF6146F00DBAF6D /* china_provinces.json */,
+			);
+			path = indigo;
+			sourceTree = "<group>";
+		};
+		1F6CB4501B5B8E620089B619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6CB4511B5B8E620089B619 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3B72FC1B9B42C400A74AE4 /* IndigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3B73061B9B42C400A74AE4 /* Build configuration list for PBXNativeTarget "IndigoTests" */;
+			buildPhases = (
+				1F3B72F91B9B42C400A74AE4 /* Sources */,
+				1F3B72FA1B9B42C400A74AE4 /* Frameworks */,
+				1F3B72FB1B9B42C400A74AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4A18C31BC3A0DE00EF522B /* PBXTargetDependency */,
+			);
+			name = IndigoTests;
+			productName = IndigoTests;
+			productReference = 1F3B72FD1B9B42C400A74AE4 /* IndigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6CB44C1B5B8E620089B619 /* indigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6CB4641B5B8E620089B619 /* Build configuration list for PBXNativeTarget "indigo" */;
+			buildPhases = (
+				1F6CB4491B5B8E620089B619 /* Sources */,
+				1F6CB44A1B5B8E620089B619 /* Frameworks */,
+				1F6CB44B1B5B8E620089B619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = indigo;
+			productName = indigo;
+			productReference = 1F6CB44D1B5B8E620089B619 /* Indigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6CB4451B5B8E620089B619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yourcompany;
+				TargetAttributes = {
+					1F3B72FC1B9B42C400A74AE4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1F6CB44C1B5B8E620089B619;
+					};
+					1F6CB44C1B5B8E620089B619 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = H7L6BUME5X;
+					};
+				};
+			};
+			buildConfigurationList = 1F6CB4481B5B8E620089B619 /* Build configuration list for PBXProject "indigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6CB4441B5B8E620089B619;
+			productRefGroup = 1F6CB44E1B5B8E620089B619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6CB44C1B5B8E620089B619 /* indigo */,
+				1F3B72FC1B9B42C400A74AE4 /* IndigoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3B72FB1B9B42C400A74AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6CB44B1B5B8E620089B619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB4850C1BF6194900DBAF6D /* BViewController.lua in Resources */,
+				1F556A4B1B99FD9A00B23F52 /* AViewController.lua in Resources */,
+				1F6CB4601B5B8E620089B619 /* LaunchScreen.storyboard in Resources */,
+				1F6CB46A1B5B8FA00089B619 /* Main.xib in Resources */,
+				1F3911141BB7F462007EF97E /* AView.lua in Resources */,
+				1F3EE3941BF8D5BA00722EC7 /* CViewController.lua in Resources */,
+				1FCB52BF1C00299A00C7A88C /* HeartViewController.lua in Resources */,
+				1FB4850A1BF6146F00DBAF6D /* china_provinces.json in Resources */,
+				1F6CB45D1B5B8E620089B619 /* Assets.xcassets in Resources */,
+				1F3911161BB82224007EF97E /* test_script.lua in Resources */,
+				1FCB52C11C00392600C7A88C /* what_indigo_modified_on_lua_source.diff in Resources */,
+				1F556A4A1B99FD9A00B23F52 /* AppDelegate.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3B72F91B9B42C400A74AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3B73001B9B42C400A74AE4 /* IndigoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6CB4491B5B8E620089B619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F556A401B99FD9400B23F52 /* ltm.c in Sources */,
+				1F556A5D1B99FDA100B23F52 /* indigo_debug.m in Sources */,
+				1F556A331B99FD9400B23F52 /* llex.c in Sources */,
+				1F556A311B99FD9400B23F52 /* linit.c in Sources */,
+				1F556A441B99FD9400B23F52 /* lvm.c in Sources */,
+				1F556A2F1B99FD9400B23F52 /* lfunc.c in Sources */,
+				1F556A2E1B99FD9400B23F52 /* ldump.c in Sources */,
+				1F556A391B99FD9400B23F52 /* loslib.c in Sources */,
+				1F556A281B99FD9400B23F52 /* lcode.c in Sources */,
+				1F6D6A8B1BE51EA400679901 /* indigo_gc.m in Sources */,
+				1F4A18C71BC411F800EF522B /* IndigoTestObject.m in Sources */,
+				1F556A341B99FD9400B23F52 /* lmathlib.c in Sources */,
+				1FB4850F1BF8C1A700DBAF6D /* ProtocolLoader.m in Sources */,
+				1FCB52A71C00025F00C7A88C /* lutf8lib.c in Sources */,
+				1F556A241B99FD9400B23F52 /* lapi.c in Sources */,
+				1F556A3C1B99FD9400B23F52 /* lstring.c in Sources */,
+				1F556A381B99FD9400B23F52 /* lopcodes.c in Sources */,
+				1F6D6A901BE5B85900679901 /* indigo_block.m in Sources */,
+				1F556A291B99FD9400B23F52 /* lcorolib.c in Sources */,
+				1F6CB4521B5B8E620089B619 /* main.m in Sources */,
+				1F556A3A1B99FD9400B23F52 /* lparser.c in Sources */,
+				1F556A3B1B99FD9400B23F52 /* lstate.c in Sources */,
+				1F556A5C1B99FDA100B23F52 /* indigo_engine.m in Sources */,
+				1F556A3E1B99FD9400B23F52 /* ltable.c in Sources */,
+				1F556A321B99FD9400B23F52 /* liolib.c in Sources */,
+				1F556A361B99FD9400B23F52 /* loadlib.c in Sources */,
+				1F6D6A931BEF58EB00679901 /* indigo_struct.m in Sources */,
+				1F556A5E1B99FDA100B23F52 /* indigo_helper.m in Sources */,
+				1F556A371B99FD9400B23F52 /* lobject.c in Sources */,
+				1F556A451B99FD9400B23F52 /* lzio.c in Sources */,
+				1F556A5B1B99FDA100B23F52 /* indigo_class.m in Sources */,
+				1F556A3F1B99FD9400B23F52 /* ltablib.c in Sources */,
+				1F6D6A961BEFA2A900679901 /* indigo_cbridge.m in Sources */,
+				1F556A2B1B99FD9400B23F52 /* ldblib.c in Sources */,
+				1F556A301B99FD9400B23F52 /* lgc.c in Sources */,
+				1F556A351B99FD9400B23F52 /* lmem.c in Sources */,
+				1F556A3D1B99FD9400B23F52 /* lstrlib.c in Sources */,
+				1F556A271B99FD9400B23F52 /* lbitlib.c in Sources */,
+				1F556A261B99FD9400B23F52 /* lbaselib.c in Sources */,
+				1F556A2D1B99FD9400B23F52 /* ldo.c in Sources */,
+				1F556A431B99FD9400B23F52 /* lundump.c in Sources */,
+				1F556A601B99FDA100B23F52 /* Indigo_object.m in Sources */,
+				1F556A251B99FD9400B23F52 /* lauxlib.c in Sources */,
+				1F556A2A1B99FD9400B23F52 /* lctype.c in Sources */,
+				1F556A2C1B99FD9400B23F52 /* ldebug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4A18C31BC3A0DE00EF522B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6CB44C1B5B8E620089B619 /* indigo */;
+			targetProxy = 1F4A18C21BC3A0DE00EF522B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6CB45E1B5B8E620089B619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6CB45F1B5B8E620089B619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3B73041B9B42C400A74AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"XCTEST=1",
+				);
+				INFOPLIST_FILE = IndigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_BUNDLE_IDENTIFIER = yourcompany.IndigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indigo.app/Indigo";
+			};
+			name = Debug;
+		};
+		1F3B73051B9B42C400A74AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IndigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_BUNDLE_IDENTIFIER = yourcompany.IndigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indigo.app/Indigo";
+			};
+			name = Release;
+		};
+		1F6CB4621B5B8E620089B619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6CB4631B5B8E620089B619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6CB4651B5B8E620089B619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = indigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.zaczh.indigo;
+				PRODUCT_NAME = Indigo;
+				SWIFT_OBJC_BRIDGING_HEADER = "indigo/indigo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F6CB4661B5B8E620089B619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = indigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.zaczh.indigo;
+				PRODUCT_NAME = Indigo;
+				SWIFT_OBJC_BRIDGING_HEADER = "indigo/indigo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3B73061B9B42C400A74AE4 /* Build configuration list for PBXNativeTarget "IndigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3B73041B9B42C400A74AE4 /* Debug */,
+				1F3B73051B9B42C400A74AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6CB4481B5B8E620089B619 /* Build configuration list for PBXProject "indigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6CB4621B5B8E620089B619 /* Debug */,
+				1F6CB4631B5B8E620089B619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6CB4641B5B8E620089B619 /* Build configuration list for PBXNativeTarget "indigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6CB4651B5B8E620089B619 /* Debug */,
+				1F6CB4661B5B8E620089B619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6CB4451B5B8E620089B619 /* Project object */;
+}
