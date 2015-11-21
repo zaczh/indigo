@@ -10,7 +10,7 @@ self.class.classFoo_(89)
 --call methods
 local cell = tableView.dequeueReusableCellWithIdentifier_("cell")
 ```
-### 2) All written in pure
+### 2) All written in pure C
 I am a great fun of C, and I don't want to mess scripts with c codes. :-)
 
 ### 3) Better memory management
