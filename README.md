@@ -1,5 +1,5 @@
 # indigo
-an Objective-C lua binding
+an Objective-C lua binding, inspired by `wax`(https://github.com/probablycorey/wax)
 ## features
 ### 1) Swift code style
 You no longer need to write colon when calling functions, just write dot `.`
