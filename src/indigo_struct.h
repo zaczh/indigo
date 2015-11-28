@@ -10,14 +10,14 @@
 
 #include "lua.h"
 
-//NOTE: keep struct type definition same as instance!!!
+//NOTE: keep struct type definition same as `IndigoObjectUserdata`!!!
 typedef struct{
     void *cptr;//pointer to the wrapped struct
     char *ctype;
-    bool isPtr;
+    bool isPtr;//Is this object a pointer to an object, such as `NSError **`
     bool isStruct;
-    bool asSuper;
-    bool asClass;
+    bool isInSuperMethodContext;
+    bool isInClassMethodContext;
 }IndigoStructUserdata;
 
 int luaopen_indigo_struct(lua_State *L);
